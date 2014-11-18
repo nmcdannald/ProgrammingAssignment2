@@ -26,7 +26,6 @@ makeCacheMatrix <- function(x = matrix()) {
         # store the inverse matrix in cache
         setInverseMatrix <- function(InverseMatrix) invmat <<- InverseMatrix
                                          
-        
         getInverseMatrix <- function() invmat  #return the cached inverse matrix
         
         # This list function is used for the purpose of the cacheSolve() 
